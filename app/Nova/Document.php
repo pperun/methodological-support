@@ -31,6 +31,16 @@ class Document extends Resource
         'id', 'name',
     ];
 
+    public static function label()
+    {
+        return __('Documents');
+    }
+
+    public static function singularLabel()
+    {
+        return __('Document');
+    }
+
     /**
      * Get the fields displayed by the resource.
      *

@@ -59,7 +59,7 @@ class Speciality extends Resource
                 ->sortable()
                 ->rules('required', 'max:255'),
 
-            Fields\HasMany::make(__('Specializations'), 'specializations'),
+            Fields\HasMany::make(__('Specializations'), 'specializations', Specialization::class),
 
             ...$this->getTimestampsFields(),
         ];

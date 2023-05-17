@@ -592,8 +592,24 @@
   "Timezone": "Часовий пояс",
   "Documents": "Документи",
   "Document": "Документ",
-  "Discipline": "Академічна дисципліна",
-  "Disciplines": "Академічні дисципліни",
+  "Discipline": "Дисципліна",
+  "Disciplines": "Дисципліни",
   "Document type": "Тип документа",
-  "Link": "Посилання"
+  "Link": "Посилання",
+  "Course year": "Рік навчання",
+  "Lector": "Лектор",
+  "Practitioner": "Практик",
+  "Specializations": "Спеціалізації",
+  "Specialization": "Спеціалізація",
+  "grade": "курс",
+  "Specialities": "Спеціальності",
+  "Speciality": "Спеціальність",
+  "Document types": "Типи документів",
+  "Education levels": "Рівні освіти",
+  "Education level": "Рівень освіти",
+  "Courses": "Курси",
+  "Course": "Курс",
+  "Groups": "Групи",
+  "Group": "Група"
+
 }

@@ -31,6 +31,16 @@ class Course extends Resource
         'id', 'course_year', 'courseName',
     ];
 
+    public static function label()
+    {
+        return __('Courses');
+    }
+
+    public static function singularLabel()
+    {
+        return __('Course');
+    }
+
     /**
      * Get the fields displayed by the resource.
      *

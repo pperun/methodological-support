@@ -9,10 +9,10 @@ class User extends Resource
 {
     public static $model = \App\Models\User::class;
 
-    public static $title = 'name';
+    public static $title = 'fullName';
 
     public static $search = [
-        'id', 'name', 'surname', 'patronymic', 'position_at_work',
+        'id', 'name', 'surname', 'patronymic', 'position_at_work', 'fullName'
     ];
 
     public static function label()

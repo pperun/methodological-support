@@ -45,7 +45,9 @@ class Discipline extends Resource
                 ->sortable()
                 ->rules('required'),
 
-            Fields\BelongsToMany::make(__('Documents'), 'documents', Document::class),
+            Fields\BelongsToMany::make(__('Documents'), 'documents', Document::class)
+                ->searchable()
+                ->show(),
         ];
     }
 }

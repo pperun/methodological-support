@@ -19,7 +19,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
         parent::boot();
         Nova::withoutNotificationCenter();
         Nova::withoutThemeSwitcher();
-        Nova::initialPath('/resources/users/new');
+        Nova::initialPath('/dashboards/main');
     }
 
     /**
@@ -71,7 +71,6 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     protected function dashboards()
     {
         return [
-            \App\Nova\Dashboards\Main::make(),
         ];
     }
 

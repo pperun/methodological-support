@@ -15,7 +15,15 @@ class Course extends Model
     {
         return Attribute::make(
             get: function () {
-                return $this->educationLevel->name.' '.$this->course_year.' grade'.$this->group->name;
+                return $this->educationLevel->name
+                    .' '
+                    .$this->course_year
+                    .' '
+                    .__('grade')
+                    .' '
+                    .$this->group->name
+                    .' '
+                    .$this->specialization->name;
             }
         );
     }
